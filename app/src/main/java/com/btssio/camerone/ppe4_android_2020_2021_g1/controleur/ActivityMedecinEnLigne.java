@@ -66,6 +66,7 @@ public class ActivityMedecinEnLigne extends AppCompatActivity {
                 ArrayAdapter<String> spinDepartementAdapter = new ArrayAdapter<>(
                         ActivityMedecinEnLigne.this.getBaseContext(), android.R.layout.simple_spinner_item
                 );
+                //grosbg
                 for (int i = 0; i < resultat.size(); i++) {
                     spinDepartementAdapter.add(resultat.get(i).getnomdepartement());
                 }
